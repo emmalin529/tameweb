@@ -1,0 +1,150 @@
+body {
+    background-image: url(' img/subtle-ghost-white-texture.jpg ');
+}
+
+nav {
+    background: white;
+}
+
+.math {
+    margin-left: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+li {
+    cursor: pointer;
+}
+
+input {
+    border-radius: 5px;
+    width: 80px;
+}
+
+.nav>li {
+    float: right;
+}
+
+li {
+    cursor: pointer;
+}
+
+.submenu {
+    background: #696969;
+    color: white;
+    position: absolute;
+    margin-left: -137px;
+    text-align: center;
+    display: none;
+    padding: inherit;
+    letter-spacing: .5em;
+    opacity: .8;
+}
+
+.submenu li {
+    list-style: none;
+    width: 200px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+.nav>li:hover .submenu {
+    display: block;
+    width: 200px;
+}
+
+.submenu>li:hover {
+    background: #cecece;
+    color: #696969;
+}
+
+.news {
+    height: 100px;
+    text-align: center;
+    background: #ebebeb;
+    padding: 3px;
+}
+
+.nc {
+    color: #800000;
+    font-size: .9em;
+    padding: 7px 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5em;
+}
+
+.content {
+    padding: 10px 40px 30px;
+    background: white;
+    opacity: .7;
+}
+
+.box1 {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    text-align: center;
+    background: #9ed6d0;
+    color: white;
+    opacity: 1;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.box2 {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    text-align: center;
+    background: #9ed6d0;
+    color: white;
+    opacity: 1;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.bm {
+    width: 424px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bm:hover .box1 {
+    color: brown;
+}
+
+.cb12 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background: #f4f4f4;
+    opacity: .7;
+}
+.row div{
+   border: 0px solid #333;
+}
+[class^="rc"]{
+    text-align: left;
+    line-height: 2em;
+}
+[class*="-3"]{
+    text-align: center;
+}
+.df{
+    font-size: .8em;
+}
+.ff{
+    text-align: center;
+    padding: 10px;
+}
+.fe{
+    margin: 30px;
+}
